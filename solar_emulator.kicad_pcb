@@ -21057,6 +21057,14 @@
 		(uuid "9b8bec7f-8b1b-4adf-90df-61c666fbc170")
 	)
 	(segment
+		(start 126.19 92.54)
+		(end 130 92.54)
+		(width 1.27)
+		(layer "F.Cu")
+		(net "5V")
+		(uuid "bb6f30c4-447b-407d-82a4-fb481e665cb1")
+	)
+	(segment
 		(start 227.863 125.984)
 		(end 227.863 130.449)
 		(width 0.25)
@@ -21311,14 +21319,6 @@
 		(layer "F.Cu")
 		(net "LIMIT2")
 		(uuid "5d7cdef1-a7b3-4fcf-8e01-55b94e2ed8ef")
-	)
-	(segment
-		(start 126.19 92.54)
-		(end 130 92.54)
-		(width 1.27)
-		(layer "F.Cu")
-		(net "5V")
-		(uuid "bb6f30c4-447b-407d-82a4-fb481e665cb1")
 	)
 	(zone
 		(net "+12V")
