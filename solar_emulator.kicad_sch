@@ -5750,7 +5750,7 @@
 	)
 	(rectangle
 		(start 16.51 116.205)
-		(end 152.4 183.515)
+		(end 82.55 183.515)
 		(stroke
 			(width 0)
 			(type default)
@@ -5771,6 +5771,18 @@
 			(type none)
 		)
 		(uuid "ec56df48-019b-4797-88e5-474ce2618a82")
+	)
+	(rectangle
+		(start 83.185 116.205)
+		(end 148.59 183.515)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ef627a41-321e-4574-814d-d5068a9bfce6")
 	)
 	(text "ESP32\n"
 		(exclude_from_sim no)
@@ -5844,7 +5856,7 @@
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
-		(at 113.284 173.736 0)
+		(at 61.722 175.26 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -5861,6 +5873,16 @@
 			)
 		)
 		(uuid "f3a2e6db-42c4-44a8-89d8-81afde85aeac")
+	)
+	(text "Regulator"
+		(exclude_from_sim no)
+		(at 114.554 174.752 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "fd675753-e19b-45a7-926e-22eb351b2349")
 	)
 	(junction
 		(at 340.36 35.56)
@@ -7082,6 +7104,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 34.29) (xy 194.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1b8678-33c0-4a1a-ae90-19244ae85d98")
+	)
+	(wire
+		(pts
 			(xy 321.31 190.5) (xy 321.31 204.47)
 		)
 		(stroke
@@ -7822,16 +7854,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 35.56) (xy 313.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "946ac0a8-ac78-4d58-b450-e81b6e5b1372")
-	)
-	(wire
-		(pts
 			(xy 74.93 138.43) (xy 74.93 140.97)
 		)
 		(stroke
@@ -8132,6 +8154,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 35.56) (xy 208.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58e87d3-9b22-450d-99ea-3ffb7db38029")
+	)
+	(wire
+		(pts
 			(xy 373.38 185.42) (xy 375.92 185.42)
 		)
 		(stroke
@@ -8362,6 +8394,26 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 35.56) (xy 299.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc765423-aa54-46fb-9749-65c45799a6fd")
+	)
+	(wire
+		(pts
+			(xy 299.72 35.56) (xy 313.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc786f7c-3b35-474a-a765-9884da3162c2")
+	)
+	(wire
+		(pts
 			(xy 121.92 215.9) (xy 123.19 215.9)
 		)
 		(stroke
@@ -8409,16 +8461,6 @@
 			(type default)
 		)
 		(uuid "d04ef40e-b810-4e85-b572-1306e6124083")
-	)
-	(wire
-		(pts
-			(xy 201.93 35.56) (xy 208.28 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0da39d4-1d01-4346-92e7-70f246916873")
 	)
 	(wire
 		(pts
@@ -9374,30 +9416,6 @@
 			)
 		)
 	)
-	(global_label "USB_DM"
-		(shape input)
-		(at 118.11 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4460b051-ebdf-4cd9-894e-9ebe5172cdc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.5942 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ALI2"
 		(shape input)
 		(at 118.11 92.71 0)
@@ -10142,6 +10160,30 @@
 			)
 		)
 	)
+	(global_label "USB_D+"
+		(shape input)
+		(at 118.11 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d07734f2-4064-4bb7-8ff8-d1674a1a997e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7152 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
 		(at 26.67 26.67 180)
@@ -10310,30 +10352,6 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
-		(shape input)
-		(at 118.11 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1ed9c27-99f5-4ab7-a5ec-49b271afb74c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.4128 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "LIMIT2"
 		(shape input)
 		(at 54.61 229.87 0)
@@ -10395,6 +10413,30 @@
 		(uuid "eae4bc28-2be0-4c3f-a794-fc5cc8bcaf7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.2252 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 118.11 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f16571db-3a49-4dcc-82a7-969b8c219e79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7152 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11338,7 +11380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 201.295 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11893,7 +11935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 60.96 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12607,85 +12649,6 @@
 			(project "solar_emulator"
 				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 307.34 35.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35ee43f6-da27-40d7-8e82-3f3c7aefc9c9")
-		(property "Reference" "#PWR034"
-			(at 311.15 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 303.53 35.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 307.34 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0d0799d-3639-4df2-9e93-6d9349598c0a")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13913,7 +13876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 222.25 189.865 0)
 			(hide yes)
 			(show_name no)
@@ -15961,7 +15924,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 201.93 35.56 90)
+		(at 194.31 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15969,10 +15932,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a2ed55c-feb9-44f0-a4e2-47d21fdf7640")
 		(property "Reference" "#PWR033"
-			(at 205.74 35.56 0)
+			(at 194.31 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15983,7 +15945,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 198.12 35.5599 90)
+			(at 192.786 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15994,7 +15956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 35.56 0)
+			(at 194.31 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16005,7 +15967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 35.56 0)
+			(at 194.31 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16016,7 +15978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name {dblquote}+3.3V{dblquote}"
-			(at 201.93 35.56 0)
+			(at 194.31 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16708,7 +16670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 201.295 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -18136,7 +18098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 222.25 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -18257,6 +18219,84 @@
 			(project "solar_emulator"
 				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 299.72 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6247909-9271-4f49-a609-35ecc542e347")
+		(property "Reference" "#PWR034"
+			(at 299.72 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 298.196 37.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name {dblquote}+3.3V{dblquote}"
+			(at 299.72 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fc1970e-bcca-4700-9dd1-523d3aa0305d")
+		)
+		(instances
+			(project "solar_emulator"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
