@@ -9628,7 +9628,7 @@
 	)
 	(global_label "LIMIT1"
 		(shape input)
-		(at 118.11 46.99 0)
+		(at 118.11 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9638,7 +9638,7 @@
 		)
 		(uuid "03bd4f30-1ff5-4f07-8c3e-aae12ca8ff60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.2076 46.99 0)
+			(at 125.51 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11020,7 +11020,7 @@
 	)
 	(global_label "LIMIT2"
 		(shape input)
-		(at 118.11 44.45 0)
+		(at 118.11 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11030,7 +11030,7 @@
 		)
 		(uuid "e4120f36-d921-47b4-a29e-8a55dda5f4c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.51 44.45 0)
+			(at 125.2076 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
