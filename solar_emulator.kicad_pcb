@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Solar Emulator Design Layout")
+		(date "2026-09-19")
+		(company "UBC Orbit")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -22006,6 +22011,82 @@
 			(justify left bottom)
 		)
 	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "3dd76e9c-f801-4016-9578-86f2e7569a17")
+		(pts
+			(xy 144 130) (xy 239 130)
+		)
+		(height 17)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "95"
+			(at 191.5 142.7 0)
+			(layer "F.Cu")
+			(uuid "3dd76e9c-f801-4016-9578-86f2e7569a17")
+			(effects
+				(font
+					(size 4 4)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "f60b5a45-b62f-4824-91a8-b6265ce06f26")
+		(pts
+			(xy 234 135) (xy 234 62)
+		)
+		(height 14)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "73"
+			(at 243.7 98.5 90)
+			(layer "F.Cu")
+			(uuid "f60b5a45-b62f-4824-91a8-b6265ce06f26")
+			(effects
+				(font
+					(size 4 4)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
 	(segment
 		(start 153.9875 119.6)
 		(end 152.8 118.4125)
@@ -26162,39 +26243,6 @@
 		(net "EN")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 160.489163 111.33406) (xy 160.66594 111.510837) (xy 161.114805 111.277164) (xy 161.002522 110.997478)
-				(xy 160.722836 110.885195)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 160.732674 110.889144) (xy 160.997884 110.995616) (xy 161.004285 111.001879) (xy 161.004383 111.002115)
-				(xy 161.110854 111.267323) (xy 161.110756 111.276277) (xy 161.105399 111.28206) (xy 160.673549 111.506875)
-				(xy 160.664628 111.507656) (xy 160.659873 111.50477) (xy 160.495229 111.340126) (xy 160.491802 111.331853)
-				(xy 160.493123 111.326452) (xy 160.71794 110.894598) (xy 160.724799 110.888844)
-			)
-		)
-	)
-	(zone
-		(net "EN")
-		(layer "F.Cu")
-		(hatch none 0.1)
 		(priority 30000)
 		(attr
 			(teardrop
@@ -26221,6 +26269,39 @@
 				(xy 168.869006 109.662193) (xy 168.864251 109.665079) (xy 168.399917 109.811475) (xy 168.390996 109.810694)
 				(xy 168.38564 109.804912) (xy 168.273394 109.542093) (xy 168.273297 109.533141) (xy 168.273395 109.532905)
 				(xy 168.321154 109.421079) (xy 168.38564 109.270086) (xy 168.39204 109.263825) (xy 168.399917 109.263524)
+			)
+		)
+	)
+	(zone
+		(net "EN")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 160.489163 111.33406) (xy 160.66594 111.510837) (xy 161.114805 111.277164) (xy 161.002522 110.997478)
+				(xy 160.722836 110.885195)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 160.732674 110.889144) (xy 160.997884 110.995616) (xy 161.004285 111.001879) (xy 161.004383 111.002115)
+				(xy 161.110854 111.267323) (xy 161.110756 111.276277) (xy 161.105399 111.28206) (xy 160.673549 111.506875)
+				(xy 160.664628 111.507656) (xy 160.659873 111.50477) (xy 160.495229 111.340126) (xy 160.491802 111.331853)
+				(xy 160.493123 111.326452) (xy 160.71794 110.894598) (xy 160.724799 110.888844)
 			)
 		)
 	)
