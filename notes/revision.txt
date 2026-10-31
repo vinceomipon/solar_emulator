@@ -1,0 +1,57 @@
+Adding optocouplers to the board
+	Current sensing?
+
+4 per h bidge
+	Since ESP32 sends AHI, ALI, BHI, BLI signals
+		Need Optocoupler for each 
+
+Also need to implement other sorts of protection
+
+What is optocoupling
+	optoisolators
+		Analogous to bodyguards
+		prevents to electrical surgers
+	Devices that use light to transfer electrical signals
+	Have a light source (typically LED) which emits light, detected by
+	receiver, thus activiating the output circuit
+		** NO ELECTRICAL CONNECTION B/W **
+		It's almost like batman signals sent through the sky for
+		batman to see
+		Therefore, if something goes wrong in one circuit, it is not
+		affected in the other
+
+What optocoupler to use?
+	MCT6 Optocouplers
+		Has two pair inputs
+			two pair outputs
+
+Should consider adding other sorts of protection that are necessary in a motor
+driver circuit
+	We already have flyback diodes attached to mosfets
+	Things to add based on claude
+		Power input protection
+			Reverse-polarity protection
+				Can use P-Channel FET, ideal-diode controller?
+			TVS Diode on motor supply
+				Standoff voltage above max bus voltage
+				Clamping voltage below MOSFET Vds (saturation)
+				and below HIP4081A 80 V limit
+			Fuse or PTC
+				for stall current and slow-start or hot-swap
+				circuit
+			Bulk electrolytic plus low-ESR ceramics
+		Gate-driver side
+			Gate resistors
+				Done
+			Gate-to-source pull-down resistors
+				Done
+			RC Snubbers
+				Across FETs if there is ringing 
+		Logic side
+			Series resistors
+				damp ringing and limit fault current
+			Pull-down resistors
+				on input lines
+			ESD/TVS array
+				for external connectors.
+		Fault protection
