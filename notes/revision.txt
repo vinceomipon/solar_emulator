@@ -55,3 +55,11 @@ driver circuit
 			ESD/TVS array
 				for external connectors.
 		Fault protection
+
+Need to separate the the GND PLANES for the optocouplers
+	I.e. input and output should have their own GND planes
+	Can I group them together i.e. one GND plane per motor driver circuit
+		I.e. one for high side and low side
+
+Should probably use hierarhcal sheets?????
+Or maybe make the sheet bigger

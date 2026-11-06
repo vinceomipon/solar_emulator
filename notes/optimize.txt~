@@ -1,6 +1,0 @@
-Adding optocouplers to the board
-	Current sensing?
-
-4 per h bidge
-	Since ESP32 sends AHI, ALI, BHI, BLI signals
-		Need Optocoupler for each 

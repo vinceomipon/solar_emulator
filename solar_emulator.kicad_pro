@@ -709,13 +709,17 @@
         "uuid": "d8ff8312-ce26-4905-abd5-48c35bcc1ef8"
       }
     ],
-    "used_designators": "D1-3,D8-12",
+    "used_designators": "D1-3,D8-12,U8",
     "variants": []
   },
   "sheets": [
     [
       "d8ff8312-ce26-4905-abd5-48c35bcc1ef8",
       "solar_emulator"
+    ],
+    [
+      "cc75a1f8-e6ae-48f2-984b-5a887c217935",
+      "Motor Driver"
     ]
   ],
   "text_variables": {},
