@@ -2781,7 +2781,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "BHS1")
+			(net "MOTOR2")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "a44451f3-86d0-4824-9f9c-c1d2a47d626e")
@@ -2875,13 +2875,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/1e741d28-18d4-4e73-b979-13c3d55f5955")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/6afe52bf-a70a-45d6-abaa-4bc5bc0beed8")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4199,13 +4196,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/2cbd151e-2c31-4f22-a90c-dd00dd9c90a4")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/2cbd151e-2c31-4f22-a90c-dd00dd9c90a4")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4500,13 +4494,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/cc14c8b1-870a-4abf-b336-617d39d81d73")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/cc14c8b1-870a-4abf-b336-617d39d81d73")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4702,12 +4693,9 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
-		(path "/e757ff02-741c-4dca-b044-7b9aba5bc87d")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/eef8aa22-03fe-4c26-9167-ca7bbe61486d")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6215,13 +6203,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/9a78d2ab-d60d-4a41-8b7e-4ebb8b016601")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/9a78d2ab-d60d-4a41-8b7e-4ebb8b016601")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6290,7 +6275,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "DIS1")
+			(net "/Motor Driver 1/DIS1")
 			(pintype "passive")
 			(uuid "20b39aba-4346-4514-b6c8-fec9b5b54a38")
 		)
@@ -6370,13 +6355,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/15a19c10-e9b9-4c5b-96f8-502f9db05468")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/15a19c10-e9b9-4c5b-96f8-502f9db05468")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6994,13 +6976,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/ea8f1a6f-a009-4ebd-a081-86c7f6a818bc")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/f51168c8-e67c-41ab-8655-cd1b3694e916")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7157,13 +7136,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "C_*")
-		(path "/93678426-3e52-447b-91e6-cfce5aff9a85")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/bcd1f1cf-7e6d-4250-9c67-c77e4018ef44")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7472,13 +7448,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "PDIP20_7P11X26P9_INR")
-		(path "/33989863-f2b0-4409-a36e-19a5329f781d")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/817fb9b8-0c29-4d64-896e-a9c0311e03e0")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9035,13 +9008,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/cbc860f6-0d1a-495c-94fd-c58489555c8c")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/d7beafd7-e08b-4c24-b4b4-5066651de8b1")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9645,13 +9615,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/cb5be80a-8346-439b-bde7-7854cedc956f")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/cb5be80a-8346-439b-bde7-7854cedc956f")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9866,7 +9833,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "MOTOR1")
+			(net "/Motor Driver 1/MOTOR1")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d507fd11-3790-40dc-9cce-210e95797387")
@@ -9935,13 +9902,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "PDIP20_7P11X26P9_INR")
-		(path "/64b3ff61-6ff0-431a-af35-cbd2acc351c8")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/64b3ff61-6ff0-431a-af35-cbd2acc351c8")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11238,7 +11202,7 @@
 			(drill 0.9144)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "BHI1")
+			(net "/Motor Driver 1/BH1")
 			(pinfunction "BHI_2")
 			(pintype "input")
 			(uuid "ac1da8c3-5f91-467b-ada6-8ce9272f33f9")
@@ -11249,7 +11213,7 @@
 			(drill 0.9144)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "DIS1")
+			(net "/Motor Driver 1/DIS1")
 			(pinfunction "DIS_3")
 			(pintype "input")
 			(uuid "8008459d-f5a7-4a83-b9fe-0bfbe0803863")
@@ -11271,7 +11235,7 @@
 			(drill 0.9144)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "BLI1")
+			(net "/Motor Driver 1/BLI1")
 			(pinfunction "BLI_5")
 			(pintype "input")
 			(uuid "9f7cfb83-8b7f-4afc-8727-b6b7ed768510")
@@ -11282,7 +11246,7 @@
 			(drill 0.9144)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "ALI1")
+			(net "/Motor Driver 1/ALI1")
 			(pinfunction "ALI_6")
 			(pintype "input")
 			(uuid "42b2cd56-9202-40a5-b67a-59eb250cc094")
@@ -11293,7 +11257,7 @@
 			(drill 0.9144)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "AHI1")
+			(net "/Motor Driver 1/AHI1")
 			(pinfunction "AHI_7")
 			(pintype "input")
 			(uuid "504ddd5c-0ae8-4082-a1ff-f33dd8f7f286")
@@ -11348,7 +11312,7 @@
 			(drill 0.9144)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "MOTOR1")
+			(net "/Motor Driver 1/MOTOR1")
 			(pinfunction "AHS_12")
 			(pintype "unspecified")
 			(uuid "dc6c7752-1ecc-4b1c-985b-84add1607dd7")
@@ -11544,12 +11508,9 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
-		(path "/c6267c8a-e68a-40ea-8b90-9c7f164e2b19")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/c6267c8a-e68a-40ea-8b90-9c7f164e2b19")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11793,13 +11754,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/82c1720d-f4f6-4fe3-9700-729f533dd866")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/b00b8419-9874-4ef8-bf95-ff4151551b68")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12257,13 +12215,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/ead01259-cd60-4805-890a-c14bc6ff4390")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/6b053d51-e603-4b17-8808-78cad8a86d8e")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12412,13 +12367,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/a197160e-44e7-4169-a121-9f7518fc8cd0")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/4f9b465b-8ef6-472c-9120-e4d9f9de798c")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12912,12 +12864,9 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
-		(path "/6bd754f2-0c65-43b5-9e4e-2dd6eaae91e8")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/6bd754f2-0c65-43b5-9e4e-2dd6eaae91e8")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13089,7 +13038,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "MOTOR1")
+			(net "/Motor Driver 1/MOTOR1")
 			(pinfunction "S_3")
 			(pintype "passive")
 			(uuid "63b30dd4-3034-4110-b3e5-7c7696154352")
@@ -13169,13 +13118,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "C_*")
-		(path "/9b442026-9722-4f90-b7a8-93db2631fc18")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/c11f3583-98f9-470a-825e-cd8fb09ab557")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13324,13 +13270,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "D*DO?41*")
-		(path "/12e4417c-bbc2-4778-8798-2f5aab902586")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/12e4417c-bbc2-4778-8798-2f5aab902586")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13777,13 +13720,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "D*DO?41*")
-		(path "/88c0d50b-66d4-414e-92ba-3cd7b1d6d4fd")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/ff5ffec8-9fc2-4cca-b8f5-7c2b56b59860")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14078,13 +14018,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/d95199c2-87db-48c1-a3cc-0a0042bc2458")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/d95199c2-87db-48c1-a3cc-0a0042bc2458")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14241,13 +14178,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "C_*")
-		(path "/6bb7fbd6-de1c-484f-afbb-2cc7fabd04de")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/6bb7fbd6-de1c-484f-afbb-2cc7fabd04de")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14404,13 +14338,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/7b4c9a99-2465-48fa-9c66-055aa3314b0f")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/3e56f87d-f2d7-483a-8342-9ada7d5181b2")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14606,12 +14537,9 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
-		(path "/3ebc1b88-fedb-468d-9293-984cf3645e8a")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/4eb0bc7b-4987-401f-920d-cef7ff4ea0a2")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14863,13 +14791,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "C_*")
-		(path "/f7c65025-dbe0-4b34-bde1-4a1d7935ad0e")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/f7c65025-dbe0-4b34-bde1-4a1d7935ad0e")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15026,13 +14951,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/f85402a3-901c-40e1-ac75-284e41d2c589")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/2443ac75-42b3-40ba-b896-ac2abd86debf")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15793,13 +15715,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/7babfade-52fe-4b94-b598-f740361d8c7a")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/7babfade-52fe-4b94-b598-f740361d8c7a")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16318,12 +16237,9 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
-		(path "/49fc0353-7906-467b-ab66-6e06c91e470e")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/49fc0353-7906-467b-ab66-6e06c91e470e")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16575,13 +16491,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/cfd3e4b3-df21-4148-ac70-4fa23d2e3559")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/9ae0220d-d209-4f1b-800c-d2dd0cd903ad")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17218,12 +17131,9 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
-		(path "/31f3cfc4-8501-40bf-b36a-1b9848ba094b")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/31f3cfc4-8501-40bf-b36a-1b9848ba094b")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17373,7 +17283,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "MOTOR1")
+			(net "/Motor Driver 1/MOTOR1")
 			(pinfunction "D_1")
 			(pintype "passive")
 			(uuid "1707eab7-4c6d-4241-88b3-12c8aa2a8d79")
@@ -17475,13 +17385,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/6b42429c-d1d9-454b-85d2-23c7647a9f2f")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/6b42429c-d1d9-454b-85d2-23c7647a9f2f")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18069,13 +17976,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/b04f1f27-f87c-4fe4-a9dc-40b0d4d2ae0d")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/b04f1f27-f87c-4fe4-a9dc-40b0d4d2ae0d")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18280,7 +18184,7 @@
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "MOTOR1")
+			(net "/Motor Driver 1/MOTOR1")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "b7e645e2-cb6c-4a7d-a2df-a29575df9258")
@@ -18533,13 +18437,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/eabe1287-1240-4eaa-a78b-68678f9560dd")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/66cfb414-ec6c-464d-a62a-ccdfcadf2cab")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18968,13 +18869,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/64febf66-4df1-4fdf-8fcf-f6905b35bc09")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/64febf66-4df1-4fdf-8fcf-f6905b35bc09")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19330,12 +19228,9 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
-		(path "/74a5b0ec-b950-4c77-bd08-21a77436c6e3")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/228d38a9-9878-48dd-8380-272fb63bda04")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19587,13 +19482,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/56e4391a-2d1f-47e3-a59c-7cbf2a7eeb07")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/56e4391a-2d1f-47e3-a59c-7cbf2a7eeb07")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20138,13 +20030,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/114b4416-e579-4f50-8ace-5cc2be36896e")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/114b4416-e579-4f50-8ace-5cc2be36896e")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20500,12 +20389,9 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
-		(path "/e7c2a0c5-4d2a-4ae8-9173-cf6c565a2d85")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/211b694e-2e2a-43ad-8696-b05c07afbd5e")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20832,7 +20718,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "BLS1")
+			(net "IS1")
 			(pintype "passive")
 			(uuid "ae2b9085-f6a5-407f-8a44-fae0b55e40dc")
 		)
@@ -20920,13 +20806,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/e66e3bf5-d21a-4794-9930-cfcaa8baf126")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/40f3a34a-6f9a-4d96-83ae-e258bd054af4")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21075,13 +20958,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 1")
-		)
 		(property ki_fp_filters "D*DO?41*")
-		(path "/b3c4d805-21e2-4618-85ae-257db58bdf49")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/cc75a1f8-e6ae-48f2-984b-5a887c217935/b3c4d805-21e2-4618-85ae-257db58bdf49")
+		(sheetname "/Motor Driver 1/")
+		(sheetfile "mdriver1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21368,13 +21248,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "D*DO?41*")
-		(path "/500e4db3-b752-4c51-a9eb-2e09b706b5c7")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/de5df4e3-90ff-4978-a523-4e263a21c14a")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21669,13 +21546,10 @@
 				)
 			)
 		)
-		(component_classes
-			(class "Driver 2")
-		)
 		(property ki_fp_filters "R_*")
-		(path "/b69ba7b1-4966-4fd2-b90a-cbaca1d953b8")
-		(sheetname "/")
-		(sheetfile "solar_emulator.kicad_sch")
+		(path "/983522e8-44ce-44ff-b1df-c509efb6f0d0/5348c675-c712-4a27-a44a-06308a7e22ce")
+		(sheetname "/Motor Driver 2/")
+		(sheetfile "mdriver2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25631,30 +25505,6 @@
 		(uuid "ba5dfd5e-d190-41db-84c3-b0ef9f683a10")
 	)
 	(segment
-		(start 199.707499 89.472501)
-		(end 199.548749 89.313751)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "DIS1")
-		(uuid "7427db60-a675-436f-a811-cfeae4fd41ad")
-	)
-	(segment
-		(start 198.4375 92.45625)
-		(end 198.4375 90.425)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "DIS1")
-		(uuid "cab86bd0-5107-4613-aa5e-0e4a386695d7")
-	)
-	(segment
-		(start 198.4375 90.425)
-		(end 199.548749 89.313751)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "DIS1")
-		(uuid "d14eb907-7183-4696-9bb7-c93aea8ca711")
-	)
-	(segment
 		(start 211.613751 68.186249)
 		(end 212.5 67.3)
 		(width 0.75)
@@ -26254,38 +26104,29 @@
 		(net "Net-(Q3-G)")
 		(uuid "8d9bba05-4192-493e-91a3-b3d56eeb42cf")
 	)
-	(zone
-		(net "EN")
+	(segment
+		(start 199.707499 89.472501)
+		(end 199.548749 89.313751)
+		(width 0.25)
 		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 160.489163 111.33406) (xy 160.66594 111.510837) (xy 161.114805 111.277164) (xy 161.002522 110.997478)
-				(xy 160.722836 110.885195)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 160.732674 110.889144) (xy 160.997884 110.995616) (xy 161.004285 111.001879) (xy 161.004383 111.002115)
-				(xy 161.110854 111.267323) (xy 161.110756 111.276277) (xy 161.105399 111.28206) (xy 160.673549 111.506875)
-				(xy 160.664628 111.507656) (xy 160.659873 111.50477) (xy 160.495229 111.340126) (xy 160.491802 111.331853)
-				(xy 160.493123 111.326452) (xy 160.71794 110.894598) (xy 160.724799 110.888844)
-			)
-		)
+		(net "/Motor Driver 1/DIS1")
+		(uuid "7427db60-a675-436f-a811-cfeae4fd41ad")
+	)
+	(segment
+		(start 198.4375 92.45625)
+		(end 198.4375 90.425)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/Motor Driver 1/DIS1")
+		(uuid "cab86bd0-5107-4613-aa5e-0e4a386695d7")
+	)
+	(segment
+		(start 198.4375 90.425)
+		(end 199.548749 89.313751)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/Motor Driver 1/DIS1")
+		(uuid "d14eb907-7183-4696-9bb7-c93aea8ca711")
 	)
 	(zone
 		(net "EN")
@@ -26317,6 +26158,39 @@
 				(xy 168.869006 109.662193) (xy 168.864251 109.665079) (xy 168.399917 109.811475) (xy 168.390996 109.810694)
 				(xy 168.38564 109.804912) (xy 168.273394 109.542093) (xy 168.273297 109.533141) (xy 168.273395 109.532905)
 				(xy 168.321154 109.421079) (xy 168.38564 109.270086) (xy 168.39204 109.263825) (xy 168.399917 109.263524)
+			)
+		)
+	)
+	(zone
+		(net "EN")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 160.489163 111.33406) (xy 160.66594 111.510837) (xy 161.114805 111.277164) (xy 161.002522 110.997478)
+				(xy 160.722836 110.885195)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 160.732674 110.889144) (xy 160.997884 110.995616) (xy 161.004285 111.001879) (xy 161.004383 111.002115)
+				(xy 161.110854 111.267323) (xy 161.110756 111.276277) (xy 161.105399 111.28206) (xy 160.673549 111.506875)
+				(xy 160.664628 111.507656) (xy 160.659873 111.50477) (xy 160.495229 111.340126) (xy 160.491802 111.331853)
+				(xy 160.493123 111.326452) (xy 160.71794 110.894598) (xy 160.724799 110.888844)
 			)
 		)
 	)
@@ -35037,39 +34911,6 @@
 		(net "EN")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 161.510837 110.66594) (xy 161.33406 110.489163) (xy 160.885195 110.722836) (xy 160.997478 111.002522)
-				(xy 161.277164 111.114805)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 161.340126 110.495229) (xy 161.50477 110.659873) (xy 161.508197 110.668146) (xy 161.506875 110.673549)
-				(xy 161.28206 111.105399) (xy 161.2752 111.111155) (xy 161.267323 111.110854) (xy 161.002115 111.004383)
-				(xy 160.995714 110.99812) (xy 160.995616 110.997884) (xy 160.889145 110.732676) (xy 160.889243 110.723722)
-				(xy 160.894598 110.71794) (xy 161.326451 110.493123) (xy 161.335371 110.492343)
-			)
-		)
-	)
-	(zone
-		(net "EN")
-		(layer "B.Cu")
-		(hatch none 0.1)
 		(priority 30000)
 		(attr
 			(teardrop
@@ -35096,6 +34937,39 @@
 				(xy 168.276604 109.542095) (xy 168.16436 109.804911) (xy 168.157959 109.811174) (xy 168.150082 109.811475)
 				(xy 167.685749 109.665079) (xy 167.678889 109.659323) (xy 167.677567 109.65392) (xy 167.677567 109.421079)
 				(xy 167.680994 109.412806) (xy 167.685747 109.40992) (xy 168.150083 109.263524)
+			)
+		)
+	)
+	(zone
+		(net "EN")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 161.510837 110.66594) (xy 161.33406 110.489163) (xy 160.885195 110.722836) (xy 160.997478 111.002522)
+				(xy 161.277164 111.114805)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 161.340126 110.495229) (xy 161.50477 110.659873) (xy 161.508197 110.668146) (xy 161.506875 110.673549)
+				(xy 161.28206 111.105399) (xy 161.2752 111.111155) (xy 161.267323 111.110854) (xy 161.002115 111.004383)
+				(xy 160.995714 110.99812) (xy 160.995616 110.997884) (xy 160.889145 110.732676) (xy 160.889243 110.723722)
+				(xy 160.894598 110.71794) (xy 161.326451 110.493123) (xy 161.335371 110.492343)
 			)
 		)
 	)

@@ -709,7 +709,7 @@
         "uuid": "d8ff8312-ce26-4905-abd5-48c35bcc1ef8"
       }
     ],
-    "used_designators": "D1-3,D8-12,U8",
+    "used_designators": "#PWR27-33,#PWR35,#PWR37-38,#PWR40-42,#PWR45-56,D1-24,U3-4,U8-10,C6-9,C13-16,Q1-16,R1-3,R7-12,R19-22,R25-43",
     "variants": []
   },
   "sheets": [
@@ -719,7 +719,19 @@
     ],
     [
       "cc75a1f8-e6ae-48f2-984b-5a887c217935",
-      "Motor Driver"
+      "Motor Driver 1"
+    ],
+    [
+      "983522e8-44ce-44ff-b1df-c509efb6f0d0",
+      "Motor Driver 2"
+    ],
+    [
+      "cf9bb2f3-e721-435d-a09d-5168ed9da88b",
+      "Comp 1"
+    ],
+    [
+      "fa61860e-8e15-4126-9318-e2215e486c1e",
+      "Comp 2"
     ]
   ],
   "text_variables": {},
