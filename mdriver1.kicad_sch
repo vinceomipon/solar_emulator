@@ -3016,7 +3016,7 @@
 		)
 	)
 	(hierarchical_label "IS1"
-		(shape input)
+		(shape output)
 		(at 194.31 118.11 0)
 		(effects
 			(font
@@ -3059,7 +3059,7 @@
 		)
 		(uuid "b67249df-bc2f-4cb5-a37c-b7d0d40332b3")
 	)
-	(hierarchical_label "OCP1"
+	(hierarchical_label "DIS1"
 		(shape input)
 		(at 80.01 85.09 180)
 		(effects
@@ -3174,7 +3174,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -3254,7 +3254,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R28")
 					(unit 1)
 				)
@@ -3336,7 +3336,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D4")
 					(unit 1)
 				)
@@ -3417,7 +3417,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D8")
 					(unit 1)
 				)
@@ -3495,7 +3495,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -3576,7 +3576,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D2")
 					(unit 1)
 				)
@@ -3693,7 +3693,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -3771,7 +3771,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -3889,7 +3889,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "Q6")
 					(unit 1)
 				)
@@ -3969,7 +3969,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R20")
 					(unit 1)
 				)
@@ -4105,7 +4105,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "U3")
 					(unit 1)
 				)
@@ -4187,7 +4187,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R25")
 					(unit 1)
 				)
@@ -4265,7 +4265,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -4347,7 +4347,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R9")
 					(unit 1)
 				)
@@ -4427,7 +4427,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "C8")
 					(unit 1)
 				)
@@ -4544,7 +4544,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -4624,7 +4624,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R19")
 					(unit 1)
 				)
@@ -4706,7 +4706,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R11")
 					(unit 1)
 				)
@@ -4788,7 +4788,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D3")
 					(unit 1)
 				)
@@ -4867,7 +4867,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D6")
 					(unit 1)
 				)
@@ -4985,7 +4985,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "Q5")
 					(unit 1)
 				)
@@ -5067,7 +5067,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D1")
 					(unit 1)
 				)
@@ -5147,7 +5147,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R27")
 					(unit 1)
 				)
@@ -5225,7 +5225,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -5307,7 +5307,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R7")
 					(unit 1)
 				)
@@ -5385,7 +5385,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -5465,7 +5465,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "C6")
 					(unit 1)
 				)
