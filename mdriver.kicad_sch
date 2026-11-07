@@ -2915,30 +2915,6 @@
 			)
 		)
 	)
-	(global_label "BLO2"
-		(shape input)
-		(at 232.41 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "456177bb-428a-4551-be1a-55ed0b4a57fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.2333 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "BLS2"
 		(shape input)
 		(at 147.32 91.44 0)
@@ -2963,30 +2939,6 @@
 			)
 		)
 	)
-	(global_label "BHS2"
-		(shape input)
-		(at 232.41 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55d574f0-8a6d-4cd6-9592-a9ffb6436a40")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.4147 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "BLO2"
 		(shape input)
 		(at 147.32 88.9 0)
@@ -3000,54 +2952,6 @@
 		(uuid "66086e57-ab1a-4b09-8a96-d9bbbad144f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.1433 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BHO2"
-		(shape input)
-		(at 232.41 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74e71d11-7515-490b-a788-a7fdc73fea7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.5357 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BLS2"
-		(shape input)
-		(at 232.41 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7633013a-c8b0-4151-a232-09811dada6b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.1123 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,28 +3131,6 @@
 			)
 		)
 	)
-	(hierarchical_label "IS2"
-		(shape output)
-		(at 196.85 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b9e13ab-6e51-4b41-ac4c-f992374e585f")
-	)
-	(hierarchical_label "MOTOR3"
-		(shape input)
-		(at 191.77 97.79 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "175f5992-15b1-4c2a-b69b-abb438dc1f05")
-	)
 	(hierarchical_label "ALI2"
 		(shape input)
 		(at 96.52 96.52 180)
@@ -3270,17 +3152,6 @@
 			(justify right)
 		)
 		(uuid "291da6f3-63f9-452e-a56b-75986d8ffc31")
-	)
-	(hierarchical_label "MOTOR4"
-		(shape input)
-		(at 200.66 97.79 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3381218a-5d4b-462a-95fd-a1e277493dd0")
 	)
 	(hierarchical_label "MOTOR4"
 		(shape input)
@@ -3474,7 +3345,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -3610,7 +3481,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "U4")
 					(unit 1)
 				)
@@ -3689,7 +3560,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D7")
 					(unit 1)
 				)
@@ -3806,126 +3677,8 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 217.17 74.93 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "228d38a9-9878-48dd-8380-272fb63bda04")
-		(property "Reference" "Q7"
-			(at 212.852 86.868 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44N"
-			(at 212.852 84.328 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 212.09 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 217.17 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 217.17 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 217.17 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 217.17 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 217.17 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6d6e9ba2-bc38-4255-a1c2-dc7a76cf71e1")
-		)
-		(pin "3"
-			(uuid "72e2aea3-54f6-4acd-afbc-21d43e9badc8")
-		)
-		(pin "1"
-			(uuid "0004e946-52cf-42f8-8cd7-5837acba5972")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -4006,7 +3759,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R12")
 					(unit 1)
 				)
@@ -4087,166 +3840,8 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f5fd08a-0fb1-4836-8d09-748ce486c4ed")
-		(property "Reference" "#PWR054"
-			(at 196.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a632352e-527f-48b9-a341-afdc53af8245")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 226.06 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e56f87d-f2d7-483a-8342-9ada7d5181b2")
-		(property "Reference" "R30"
-			(at 226.06 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 226.06 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 226.06 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 226.06 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f3afdff4-dc13-42a2-bec7-570de1d5e566")
-		)
-		(pin "1"
-			(uuid "f6bbea9b-7c59-4c65-9a7a-67e3812e365e")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4325,7 +3920,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R21")
 					(unit 1)
 				)
@@ -4407,7 +4002,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R8")
 					(unit 1)
 				)
@@ -4489,7 +4084,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D5")
 					(unit 1)
 				)
@@ -4607,7 +4202,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "Q8")
 					(unit 1)
 				)
@@ -4689,7 +4284,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D11")
 					(unit 1)
 				)
@@ -4771,89 +4366,8 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 209.55 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "543226ad-a3a6-4249-b341-1dd4c966fef9")
-		(property "Reference" "D10"
-			(at 199.898 74.168 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 199.898 76.708 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 209.55 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 209.55 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3f9ef854-2db4-4bf0-944a-90b59b9f4434")
-		)
-		(pin "1"
-			(uuid "bba6dcfd-5157-4117-85e2-a03abf2eef09")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4927,97 +4441,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "294a0b98-5f77-4ddc-befd-9a4a4da5fc48")
+			(uuid "294a0b98-5f77-4ddc-befd-9a4a4da5fc49")
 		)
 		(pin "1"
-			(uuid "79a2fa8a-aa9f-4be7-a7c1-c28add23de99")
+			(uuid "79a2fa8a-aa9f-4be7-a7c1-c28add23de9a")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 181.61 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f4597bc-f658-476b-b9a5-f26b7479784d")
-		(property "Reference" "D9"
-			(at 184.15 73.6599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 184.15 76.1999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 181.61 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 181.61 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1c12e1d-fe30-4ffb-b8cb-b69f10459fa8")
-		)
-		(pin "1"
-			(uuid "c4cb23a1-24f1-43e4-896f-17660fe7e0ab")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5090,211 +4522,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a632352e-527f-48b9-a341-afdc53af8245")
+			(uuid "a632352e-527f-48b9-a341-afdc53af8246")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 196.85 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66cfb414-ec6c-464d-a62a-ccdfcadf2cab")
-		(property "Reference" "R26"
-			(at 199.39 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1"
-			(at 199.39 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 195.072 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a3180a35-cb07-4c2e-ad06-057eef8b0393")
-		)
-		(pin "1"
-			(uuid "7736f22c-c443-4cd7-910a-307cbb3b5e0d")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 175.26 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69d0c9b0-8beb-43a2-9e88-9e79c5906d39")
-		(property "Reference" "Q4"
-			(at 180.594 124.714 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44N"
-			(at 180.594 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 180.34 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 175.26 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 175.26 131.445 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 175.26 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 175.26 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "39c31b08-b7ed-434b-9ede-f04613c6fae8")
-		)
-		(pin "3"
-			(uuid "f7574125-f99c-4e2c-9c26-fa99f1dd9aba")
-		)
-		(pin "1"
-			(uuid "59d22c0a-4776-49c2-a743-8d9a850aafbe")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5368,95 +4601,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f1c12e1d-fe30-4ffb-b8cb-b69f10459fa8")
+			(uuid "f1c12e1d-fe30-4ffb-b8cb-b69f10459fa9")
 		)
 		(pin "1"
-			(uuid "c4cb23a1-24f1-43e4-896f-17660fe7e0ab")
+			(uuid "c4cb23a1-24f1-43e4-896f-17660fe7e0ac")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b053d51-e603-4b17-8808-78cad8a86d8e")
-		(property "Reference" "R22"
-			(at 166.37 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 166.37 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 166.37 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c922988-b135-4f69-8431-324a32dfdffd")
-		)
-		(pin "1"
-			(uuid "f4e89d54-be3b-4a19-9712-5bbde99312f2")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5563,17 +4716,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "6d6e9ba2-bc38-4255-a1c2-dc7a76cf71e1")
+			(uuid "6d6e9ba2-bc38-4255-a1c2-dc7a76cf71e2")
 		)
 		(pin "3"
-			(uuid "72e2aea3-54f6-4acd-afbc-21d43e9badc8")
+			(uuid "72e2aea3-54f6-4acd-afbc-21d43e9badc9")
 		)
 		(pin "1"
-			(uuid "0004e946-52cf-42f8-8cd7-5837acba5972")
+			(uuid "0004e946-52cf-42f8-8cd7-5837acba5973")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "Q7")
 					(unit 1)
 				)
@@ -5653,90 +4806,8 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 182.88 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b4aa4c4-48d3-4888-8b03-f440fbb3e7d2")
-		(property "Reference" "D11"
-			(at 185.42 113.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 185.42 115.5699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 182.88 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 182.88 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a667c618-2b39-4179-aedc-9ada4e2b6fc8")
-		)
-		(pin "1"
-			(uuid "f410fcef-0569-4816-8759-40c6737936df")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5813,7 +4884,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -5887,11 +4958,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd814e92-6308-49b0-8f05-ffdfb26c4acd")
+			(uuid "fd814e92-6308-49b0-8f05-ffdfb26c4ace")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -5966,14 +5037,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a3180a35-cb07-4c2e-ad06-057eef8b0393")
+			(uuid "a3180a35-cb07-4c2e-ad06-057eef8b0394")
 		)
 		(pin "1"
-			(uuid "7736f22c-c443-4cd7-910a-307cbb3b5e0d")
+			(uuid "7736f22c-c443-4cd7-910a-307cbb3b5e0e")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R26")
 					(unit 1)
 				)
@@ -6048,147 +5119,69 @@
 			)
 		)
 		(pin "3"
-			(uuid "9f0effab-6d77-46ea-9c74-485f88134cd6")
+			(uuid "9f0effab-6d77-46ea-9c74-485f88134cd7")
 		)
 		(pin "8"
-			(uuid "17b5bc5d-7a75-47ee-8d1a-47ddade0d350")
+			(uuid "17b5bc5d-7a75-47ee-8d1a-47ddade0d351")
 		)
 		(pin "18"
-			(uuid "d155b258-b510-49e3-8986-bd3133033668")
+			(uuid "d155b258-b510-49e3-8986-bd3133033669")
 		)
 		(pin "11"
-			(uuid "3ee7c3a1-9896-424d-9f4b-9660c6ca71a3")
+			(uuid "3ee7c3a1-9896-424d-9f4b-9660c6ca71a4")
 		)
 		(pin "19"
-			(uuid "3bd4559b-3ac9-4158-8601-01f72326a1f5")
+			(uuid "3bd4559b-3ac9-4158-8601-01f72326a1f6")
 		)
 		(pin "5"
-			(uuid "92031b44-c572-450d-aed6-ea76d0449f6d")
+			(uuid "92031b44-c572-450d-aed6-ea76d0449f6e")
 		)
 		(pin "1"
-			(uuid "48069e1e-554f-4665-9e2c-abbe2169aa3a")
+			(uuid "48069e1e-554f-4665-9e2c-abbe2169aa3b")
 		)
 		(pin "2"
-			(uuid "191b82fb-a495-4bea-a9ef-24bfc46436d5")
+			(uuid "191b82fb-a495-4bea-a9ef-24bfc46436d6")
 		)
 		(pin "4"
-			(uuid "683e8ece-9c70-4db4-9494-63c0c2cd9309")
+			(uuid "683e8ece-9c70-4db4-9494-63c0c2cd930a")
 		)
 		(pin "7"
-			(uuid "f2a3ad22-0bdf-4f9e-97dd-cb370ac0415d")
+			(uuid "f2a3ad22-0bdf-4f9e-97dd-cb370ac0415e")
 		)
 		(pin "12"
-			(uuid "ac4dfd6b-aa39-4c60-a2fb-07140b419e75")
+			(uuid "ac4dfd6b-aa39-4c60-a2fb-07140b419e76")
 		)
 		(pin "9"
-			(uuid "82532cc8-c9fc-40f0-ac0b-8b459fe16049")
+			(uuid "82532cc8-c9fc-40f0-ac0b-8b459fe1604a")
 		)
 		(pin "14"
-			(uuid "5e82da7d-241c-49d7-9c0b-e87ab2406d1c")
+			(uuid "5e82da7d-241c-49d7-9c0b-e87ab2406d1d")
 		)
 		(pin "13"
-			(uuid "cbeba590-d73c-40a1-a484-a5b21237b276")
+			(uuid "cbeba590-d73c-40a1-a484-a5b21237b277")
 		)
 		(pin "16"
-			(uuid "7512950c-5b80-4e1c-be6b-88f8e1903d61")
+			(uuid "7512950c-5b80-4e1c-be6b-88f8e1903d62")
 		)
 		(pin "15"
-			(uuid "12b4f0a9-5dd6-4fc1-963a-88592a0f3fc2")
+			(uuid "12b4f0a9-5dd6-4fc1-963a-88592a0f3fc3")
 		)
 		(pin "17"
-			(uuid "d0a6cd30-27b4-48ba-b9f2-ac7d55ba0b26")
+			(uuid "d0a6cd30-27b4-48ba-b9f2-ac7d55ba0b27")
 		)
 		(pin "6"
-			(uuid "8b16f85b-5cd0-4ca4-bb23-4d74007ff219")
+			(uuid "8b16f85b-5cd0-4ca4-bb23-4d74007ff21a")
 		)
 		(pin "10"
-			(uuid "53ccba28-59db-4b91-97c6-a61924a15550")
+			(uuid "53ccba28-59db-4b91-97c6-a61924a15551")
 		)
 		(pin "20"
-			(uuid "6b38f2a9-14b2-46fd-857c-b0d313d8307e")
+			(uuid "6b38f2a9-14b2-46fd-857c-b0d313d8307f")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 196.85 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fc80875-811e-44cb-b053-1b9b9d403b83")
-		(property "Reference" "#PWR053"
-			(at 196.85 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 196.85 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 196.85 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffaa1a9b-aa37-4e22-ab60-fcaa65f09cb8")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6267,7 +5260,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R29")
 					(unit 1)
 				)
@@ -6345,7 +5338,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -6418,14 +5411,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "f3afdff4-dc13-42a2-bec7-570de1d5e566")
+			(uuid "f3afdff4-dc13-42a2-bec7-570de1d5e567")
 		)
 		(pin "1"
-			(uuid "f6bbea9b-7c59-4c65-9a7a-67e3812e365e")
+			(uuid "f6bbea9b-7c59-4c65-9a7a-67e3812e365f")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R30")
 					(unit 1)
 				)
@@ -6499,11 +5492,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffaa1a9b-aa37-4e22-ab60-fcaa65f09cb8")
+			(uuid "ffaa1a9b-aa37-4e22-ab60-fcaa65f09cb9")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -6583,7 +5576,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "C9")
 					(unit 1)
 				)
@@ -6657,250 +5650,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f9ef854-2db4-4bf0-944a-90b59b9f4434")
+			(uuid "3f9ef854-2db4-4bf0-944a-90b59b9f4435")
 		)
 		(pin "1"
-			(uuid "bba6dcfd-5157-4117-85e2-a03abf2eef09")
+			(uuid "bba6dcfd-5157-4117-85e2-a03abf2eef0a")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 217.17 114.3 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1c8bd4b-ade5-44a7-84e1-23305c823284")
-		(property "Reference" "Q8"
-			(at 211.328 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44N"
-			(at 211.328 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 212.09 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 217.17 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 217.17 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 217.17 131.445 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 217.17 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 217.17 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "83c8e6cf-668e-4176-ae3c-34886a7d2cdf")
-		)
-		(pin "3"
-			(uuid "e56ae538-b63b-4336-a502-d43d6100f1bd")
-		)
-		(pin "1"
-			(uuid "5fbc4b14-b548-4cb8-b465-ec49fb6ed669")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 175.26 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3bb1584-8067-46da-a8ce-9efff2b02edc")
-		(property "Reference" "Q3"
-			(at 169.418 80.772 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFZ44N"
-			(at 169.418 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 180.34 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 175.26 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 175.26 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 175.26 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 175.26 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 175.26 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7841dacb-8831-4a62-8b2d-bd63ad864095")
-		)
-		(pin "3"
-			(uuid "72b4a663-2e35-429c-a9f7-a84dfd4cedd6")
-		)
-		(pin "1"
-			(uuid "f67f2156-32b7-4261-9195-eb6dbe11da8e")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6972,14 +5730,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd0a6725-7398-4f7c-82c4-7f6a5db0b0ba")
+			(uuid "fd0a6725-7398-4f7c-82c4-7f6a5db0b0bb")
 		)
 		(pin "2"
-			(uuid "1e7204f4-f308-47bb-88eb-f1dbb02f7366")
+			(uuid "1e7204f4-f308-47bb-88eb-f1dbb02f7367")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "C7")
 					(unit 1)
 				)
@@ -7053,11 +5811,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "22b8f9bc-fa9f-495c-a936-b15363561c64")
+			(uuid "22b8f9bc-fa9f-495c-a936-b15363561c65")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -7130,95 +5888,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "daa7c2bd-4b3b-4287-86bc-f3a29062f9ee")
+			(uuid "daa7c2bd-4b3b-4287-86bc-f3a29062f9ef")
 		)
 		(pin "2"
-			(uuid "9764f2b2-2bdc-48b3-81e8-3f95800ff3c4")
+			(uuid "9764f2b2-2bdc-48b3-81e8-3f95800ff3c5")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 226.06 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d12a7ba1-d278-4ff8-ad26-a5c9154abaa9")
-		(property "Reference" "R29"
-			(at 226.06 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 226.06 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 226.06 76.708 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 226.06 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e3271d4e-ede7-4dd4-a906-0b1387dd0d70")
-		)
-		(pin "1"
-			(uuid "da0bd449-84a2-472a-9d68-d0f285546d0c")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7292,14 +5970,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "cfa1b4f6-68a9-468d-9b15-ff90cb8352ea")
+			(uuid "cfa1b4f6-68a9-468d-9b15-ff90cb8352eb")
 		)
 		(pin "1"
-			(uuid "c7a370e3-ea0f-47a6-bef4-cf187ad76128")
+			(uuid "c7a370e3-ea0f-47a6-bef4-cf187ad76129")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R10")
 					(unit 1)
 				)
@@ -7372,96 +6050,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8c922988-b135-4f69-8431-324a32dfdffd")
+			(uuid "8c922988-b135-4f69-8431-324a32dfdffe")
 		)
 		(pin "1"
-			(uuid "f4e89d54-be3b-4a19-9712-5bbde99312f2")
+			(uuid "f4e89d54-be3b-4a19-9712-5bbde99312f3")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 208.28 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d7beafd7-e08b-4c24-b4b4-5066651de8b1")
-		(property "Reference" "D12"
-			(at 198.882 113.284 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 198.882 115.824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 208.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 208.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "95428bd1-ae17-45f6-9e93-421ec01502fe")
-		)
-		(pin "1"
-			(uuid "8f7a0052-bffa-43ce-9e6f-4b1bbe1278cc")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7538,7 +6135,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -7610,14 +6207,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b6fe5cb-5ea7-4640-a5e7-a61aa0d1777e")
+			(uuid "1b6fe5cb-5ea7-4640-a5e7-a61aa0d1777f")
 		)
 		(pin "2"
-			(uuid "99a8168a-fa48-4439-9eca-a2e20ce8b8f1")
+			(uuid "99a8168a-fa48-4439-9eca-a2e20ce8b8f2")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D7")
 					(unit 1)
 				)
@@ -7691,11 +6288,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "65fc17dc-6cfb-4587-bdaf-05cde5c08f80")
+			(uuid "65fc17dc-6cfb-4587-bdaf-05cde5c08f81")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -7802,17 +6399,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "39c31b08-b7ed-434b-9ede-f04613c6fae8")
+			(uuid "39c31b08-b7ed-434b-9ede-f04613c6fae9")
 		)
 		(pin "3"
-			(uuid "f7574125-f99c-4e2c-9c26-fa99f1dd9aba")
+			(uuid "f7574125-f99c-4e2c-9c26-fa99f1dd9abb")
 		)
 		(pin "1"
-			(uuid "59d22c0a-4776-49c2-a743-8d9a850aafbe")
+			(uuid "59d22c0a-4776-49c2-a743-8d9a850aafbf")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "Q4")
 					(unit 1)
 				)
@@ -7886,11 +6483,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5fca2370-dfc1-4ab3-9d05-b2fa62d43b81")
+			(uuid "5fca2370-dfc1-4ab3-9d05-b2fa62d43b82")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -7965,95 +6562,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4289c882-a4e0-4f12-8283-21b467d5a1fe")
+			(uuid "4289c882-a4e0-4f12-8283-21b467d5a1ff")
 		)
 		(pin "1"
-			(uuid "21ec5e13-06c2-4230-b11c-2579c2bc750c")
+			(uuid "21ec5e13-06c2-4230-b11c-2579c2bc750d")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5624c78-e28a-4dba-b1a7-5c5009231d47")
-		(property "Reference" "R21"
-			(at 166.37 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 166.37 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 166.37 76.708 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d4db5fc2-e03f-4420-9f43-3ec991da9d15")
-		)
-		(pin "1"
-			(uuid "09c6025f-21a2-424a-bc0b-b7542e9aab07")
-		)
-		(instances
-			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8127,14 +6644,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "804f425a-b42a-40e5-8404-824f3e06822e")
+			(uuid "804f425a-b42a-40e5-8404-824f3e06822f")
 		)
 		(pin "2"
-			(uuid "f0deed37-856e-45f3-8c22-5cf13dd5be70")
+			(uuid "f0deed37-856e-45f3-8c22-5cf13dd5be71")
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/983522e8-44ce-44ff-b1df-c509efb6f0d0"
 					(reference "D5")
 					(unit 1)
 				)
