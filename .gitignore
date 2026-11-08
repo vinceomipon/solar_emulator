@@ -1,1 +1,4 @@
 .history
+notes/
+*.txt.un~
+.txt~

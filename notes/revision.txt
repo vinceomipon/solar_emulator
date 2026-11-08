@@ -63,3 +63,9 @@ Need to separate the the GND PLANES for the optocouplers
 
 Should probably use hierarhcal sheets?????
 Or maybe make the sheet bigger
+Dont need the comparator circuit,
+Should Remove them 
+Bruh have to redesign the whole board again it seems ;(((
+	If removing comparator?
+Have to add bulk capacitors
+
