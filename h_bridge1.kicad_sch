@@ -915,12 +915,6 @@
 		(uuid "0f7b3bf5-04f3-42cf-989b-fe1f568821c5")
 	)
 	(junction
-		(at 144.78 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ea55236-08cf-40b4-9a0d-aaa86f1a92db")
-	)
-	(junction
 		(at 125.73 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -937,6 +931,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e8a2d3d-cb70-4940-999a-3e1391bc1e49")
+	)
+	(junction
+		(at 144.78 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81185511-fd1e-478f-af37-ab4a93d0daf5")
 	)
 	(junction
 		(at 162.56 96.52)
@@ -1158,6 +1158,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 128.27) (xy 162.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527bd83f-1774-400d-8a21-b8e08a6254c7")
+	)
+	(wire
+		(pts
 			(xy 156.21 120.65) (xy 156.21 121.92)
 		)
 		(stroke
@@ -1205,6 +1215,16 @@
 			(type default)
 		)
 		(uuid "5eb4b689-0781-4b88-b2cf-cbedfbed71d5")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 144.78 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d61cbac-8613-4a59-9736-f150bcf5d81d")
 	)
 	(wire
 		(pts
@@ -1348,16 +1368,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 128.27) (xy 144.78 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca3c6d49-01ed-4575-8ca8-e5ecb3dbf4ab")
-	)
-	(wire
-		(pts
 			(xy 156.21 110.49) (xy 162.56 110.49)
 		)
 		(stroke
@@ -1428,16 +1438,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 128.27) (xy 144.78 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f70435-dc50-4bb9-b0a7-401981cd4985")
-	)
-	(wire
-		(pts
 			(xy 144.78 62.23) (xy 144.78 64.77)
 		)
 		(stroke
@@ -1448,13 +1448,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 128.27) (xy 162.56 128.27)
+			(xy 144.78 128.27) (xy 144.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0fcb38-70cf-4564-8855-cb940563230a")
+	)
+	(wire
+		(pts
+			(xy 125.73 128.27) (xy 144.78 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed14530b-5c3b-451f-ac88-9162e072f5a9")
+	)
+	(wire
+		(pts
+			(xy 144.78 121.92) (xy 144.78 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef72503c-18b2-4bf9-a4b5-0b1893ad6e2d")
 	)
 	(wire
 		(pts
@@ -1520,6 +1540,17 @@
 			(justify right)
 		)
 		(uuid "62002ff0-efb2-436b-892e-c9b9a075dc10")
+	)
+	(hierarchical_label "IS2"
+		(shape output)
+		(at 144.78 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65c3820e-3ec4-4df4-b1ac-2e251d00d642")
 	)
 	(hierarchical_label "ALS2"
 		(shape input)
@@ -1892,7 +1923,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 133.35 0)
+		(at 144.78 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1903,7 +1934,7 @@
 		(fields_autoplaced yes)
 		(uuid "69230b74-7ec3-44bd-8f80-90c883df5957")
 		(property "Reference" "#PWR056"
-			(at 144.78 139.7 0)
+			(at 144.78 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +1945,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 138.43 0)
+			(at 144.78 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1924,7 +1955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 133.35 0)
+			(at 144.78 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1935,7 +1966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 133.35 0)
+			(at 144.78 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +1977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 133.35 0)
+			(at 144.78 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2443,6 +2474,88 @@
 			(project "solar_emulator"
 				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/6d84acc3-7cb8-4644-ab0e-c5d314bea336"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c83ec25c-18eb-4681-914f-55827eea314b")
+		(property "Reference" "R26"
+			(at 147.32 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1"
+			(at 147.32 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 143.002 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd5c8a22-a346-43ff-9b36-dda23122ee75")
+		)
+		(pin "2"
+			(uuid "37aadba2-bda4-4c29-91fd-9942fda5b9e6")
+		)
+		(instances
+			(project "solar_emulator"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/6d84acc3-7cb8-4644-ab0e-c5d314bea336"
+					(reference "R26")
 					(unit 1)
 				)
 			)

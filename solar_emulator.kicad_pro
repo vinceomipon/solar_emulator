@@ -709,7 +709,7 @@
         "uuid": "d8ff8312-ce26-4905-abd5-48c35bcc1ef8"
       }
     ],
-    "used_designators": "#PWR34,#PWR36,#PWR39,#PWR43,D1-3,D8-12,U8-11",
+    "used_designators": "C10-11,R1-3,R13-18,U5-6",
     "variants": []
   },
   "sheets": [
@@ -724,6 +724,14 @@
     [
       "983522e8-44ce-44ff-b1df-c509efb6f0d0",
       "Motor Driver 2"
+    ],
+    [
+      "98b9e4d3-36e3-4dd8-9837-cb1afe889bfd",
+      "Comp 1"
+    ],
+    [
+      "55bda2e0-5ebe-4095-9856-9e784fb5703a",
+      "Comp 2"
     ],
     [
       "6d84acc3-7cb8-4644-ab0e-c5d314bea336",

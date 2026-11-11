@@ -1138,7 +1138,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -1216,7 +1216,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -1318,7 +1318,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
 					(reference "U6")
 					(unit 3)
 				)
@@ -1396,7 +1396,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -1415,7 +1415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e73f28d-2c66-4169-93ea-48b35623f0d0")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 124.46 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1476,8 +1476,8 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
-					(reference "R15")
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1558,7 +1558,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
 					(reference "C11")
 					(unit 1)
 				)
@@ -1636,7 +1636,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -1714,7 +1714,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -1733,7 +1733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2cd39d5-1197-4915-8a98-994852af4de3")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 149.7626 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,8 +1796,8 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
-					(reference "R18")
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1815,7 +1815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bec02482-ff04-4a5e-bc30-0a4980786c25")
-		(property "Reference" "R24"
+		(property "Reference" "R17"
 			(at 171.45 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1878,8 +1878,8 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
-					(reference "R24")
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1896,7 +1896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3c25cf5-8910-4b11-bca0-ac4a95afacf2")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 124.46 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1957,8 +1957,8 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
-					(reference "R16")
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2054,7 +2054,7 @@
 		)
 		(instances
 			(project "solar_emulator"
-				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/fa61860e-8e15-4126-9318-e2215e486c1e"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/55bda2e0-5ebe-4095-9856-9e784fb5703a"
 					(reference "U6")
 					(unit 1)
 				)
