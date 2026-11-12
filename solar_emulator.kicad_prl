@@ -125,7 +125,7 @@
   "schematic": {
     "hierarchy_collapsed": [],
     "selection_filter": {
-      "graphics": false,
+      "graphics": true,
       "images": true,
       "labels": true,
       "lockedItems": false,
