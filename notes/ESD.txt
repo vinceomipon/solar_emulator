@@ -1,65 +1,115 @@
-https://www.ti.com/lit/an/slvae37/slvae37.pdf?ts=179437855341
-Choosing the correct TVS Diode
-	**Key specs to look for in data sheet**
+Need to factor ESD protection especially with my external connectors
 
-VRWM: applied voltage
-	TVS leakage is specified to be very low in the nano amps
-	In design, param should be above the expected max operating voltage.
-		diode leak increases significantly if applied voltage exceeds
-		this param (see I/V curve)
-	Ex. protected line is at 5V nominal, max variance up to 7V,  
-		ensure V_RWM is 7V or greater
+WHY ESD protection
+	static electrical charge will accumulate during device operation
+		This results in large ESD event
+	
+	Strategic placement of ESD protection helps defends against suche vents
 
-VBR: Applied voltage 
-	where TVS will have 1mA leakage and begin shunting current.
-	inflection point on I/V diode curve, whgere leakage increase
-	exponentially
-	DC value, can shift depending on temp and process
-	In design, make sure **nominal voltage** stays below V_RWM NOT V_BR
-		This is to assure very low system leakage
-	Select a diode where I_pp references your exact waveform used for test
-	conditions
-Ipp: Max current for a defined waveform before TVS diode go to failure
-	i.e. the max current the diode can shunt before diode is damaged
-	In design, I_pp should be much higher than circuit peak surge current
+Unidirectional TVS Diode
+	Transient voltage suppression, protects circuit from strong transient voltage (i.e. electrostatic discharge)
+		i.e. if ESD event is strong enough
+			diode activates into reverse bias, thus affectively directing the current flow to GND instead of the subcircuit
+	Will be some current leakage, realistically (refer to the tvs diode graph, similar to diode graph)
+Think as the diode as a open circuit, when ESD event not occur
+	Then it becomes short to GND when it occurs
 
-Vclamp: voltage that TVS diode regulates to when exposed to transient current.
-	determines voltage system will be exposed to during a surce
-		Lower v_clamp implies less failure of protectred circuit
-		V_clamp is determined by R_DYN so choose diode with lower
-		R_Dyn
-	V_clamp specified in diode datasheet relative to I_surge and a
-	reference waveform
-		Match data sheet test conditions to your own
-Rdyn: resistance in diode that causes Vclamp to rise when exposed to transient
-current
-	R_Dyn is diode intrinsic property (i.e property of diode itself)
-	V_clamp = V_BR + I_surge x R_dyn
-	If R_dyn not specified in datasheet can be derived by
-	us eqn above to derive R_dyn
+Bidirectional TVS Diode
+	Same as unidirectional, but works in both direction
+	protects against both cases where the GND net has some high impedance or fault
 
-Polarity:
-	Whether TVS can sustain a +/- V_RWM or only a positive V_RWM w/o
-	leakage current
-	Observe the differences in I/V curve b/w unidirectional and
-	bidirectional configs
-		Use unidirection for applications wher e voltage is always
-		positive
-			More robust protection against negative surge pulses
-		Use bidirectional where voltage can be positive or negative
-			More flexibility for input voltages
-		negative V_clamp of unidirecitonal TVS diode much better than
-		V_clamp of bidirectional TVS diode
+Honestly think for power rails, i.e. the nets that we are using for the external connectors, unidirectionals hould suffice
+	Place TVS diodes as close to the connectors as possible
 
-I_leak:
-	leakage current when voltage is applied, specced at VRWM
-Capacitance:
-	parasitic capacitance in TVS diode that impact system operation
+Relays for ESD protection
 
-**Refer to the TVS Diode I/V curve**
+When looking at specs
+	PAY ATTENTION TO CLAMPING VOLTAGE
+		Lower clamping voltage means better protection for components
 
-Voltage tolerances by rail (according to gemini)
-• +3.3V Rail: ±5% (Range: +3.135V to +3.465V)
-• +5V Rail: ±5% (Range: +4.750V to +5.250V)
-• +12V Rail: ±5% to -7% depending on the standard (Range: roughly +11.16V to
-+12.60V
+Lower impedance from ESD source to GND as much as possible, follow guidelines
+Keep Angles < 45 degrees
+
+Grounding schemes are critical in protecting against ESD
+Separate Chassis GND, digital, analog GND
+Electrical connections to a Earth/GND chassis through PCB grounded through-holes adjacent to TVS ground nad ESD ground
+
+Summarize:
+
+• Controlling impedances around the TVS for dissipating ESD current, IESD
+• Limiting the effects of EMI on unprotected circuits
+• Properly using VIAs to maximize ESD dissipation by the TVS
+• Designing a grounding scheme which has very low impedance for the TVS
+
+PCB Layout guidlines for ESD dissipation
+consider parasitic inductance
+	Ideally want parasitic inductance to be greated from TVS to protected circuit, then from ESD source to TVS.
+	This can be achieved by reducing the distance between the TVS diode and ESD source
+
+No VIA should be placed on the trace that shorts the ESD current to GND
+	Remember whant traces to be no more than 45 degrees
+ESD source typically comes from connector in PCB
+
+
+Limiting EMI from ESD
+	radiation source will be the circuit b/w ESD source and TVS.
+	Consider this keep-out region for unprotected PCB traces
+	Summary
+		dont route unprotected circuits in areas b/w ESD Source and TVS
+		Place TVS as near to connector as possible
+		Route w/ straight traces b/w ESD source and TVS
+
+Routing with vias
+	Avoid VIAS b/w ESD source and TVS if possible
+	Case 1:
+		No via b/w ESD source and TVS, i.e. ESD source and TVS Diode are on same plane
+		Thus ESD must flow from TVS before protected IC
+	Case 2:
+		Via is in b/w Protected and ESD source
+		This increases the impedance from the ESD source to TVS Diode
+		So current will flow straight to the circuit
+
+Grounding Schemes for ESD
+	TVS GND pin should connect to GND plane that is stitched to an adjacent GND plane layer
+	Lower the L3 parasitic inductance
+
+https://www.ti.com/lit/an/slvae37/slvae37.pdf?ts=1794378553418
+Choosing the right TVS Diode
+Key Parameters
+	VRWM
+		Applied voltage where TVS leakage is specified to be very low, in the nano-amps (very negligible)
+			Voltage applied to TVS where diode doesn't conduct significant current during use (i.e. < 100 nA)
+		SHOULD BE ABOVE MAXIMUM OPERATING VOLTAGE OF WHATEVER COMPONENT ITS PROTECTING
+	VBR
+		Applied voltage where TVS will see 1mA leakage and begin shunting current
+		I.e. in active region
+		Essentially is the inflection point of I/V curve, where current increases exponentially
+		DC value and can shift depending on process and temperature
+		VRWM < VBR, So set VRWM as the max threshold for current to operate not VBR
+	IPP
+		Maximum current for defined waveform that TVS diode can sustain before failure
+		Ensure Ipp of diode is larger than peak surge current so no TVS failure occurs
+		defined relative to waveform
+	VCLAMP
+		Voltage that TVS diode regulats to when exposed to transient current
+		lower the Vclamp the less chance of failure due to electrical overstress
+		V_clamp = V_BR + R_DYN * I_SURGE
+		V_clamp is affected heavily by r_dyn
+		Don't know if we need to worry to much abt this
+	RDYN
+		Resistance in TVS diode that causes Vclamp to rise when exposed to transient current
+		Diode intrsic property
+	Polarity
+		Whether TVS sustains +/- V_RWM or only a positive V_RWM w/o current leakage
+		Unidirectional IV Curve
+			Used in applicaitons where voltage is always positive (power nets?)
+			More robust protection from negative surge pulses
+		Bidirectional IV Curve
+			Voltage can be positive or negative.
+			Provide smore flexibility for input voltages
+	I_leak
+		Leakage current when voltage is applied, specced at V_RWM
+	Capacitance
+		Parasitic capacitance in TVS diode that can impact system operation.
+		
+		
