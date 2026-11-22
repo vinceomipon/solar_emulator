@@ -1,0 +1,65 @@
+https://www.ti.com/lit/an/slvae37/slvae37.pdf?ts=179437855341
+Choosing the correct TVS Diode
+	**Key specs to look for in data sheet**
+
+VRWM: applied voltage
+	TVS leakage is specified to be very low in the nano amps
+	In design, param should be above the expected max operating voltage.
+		diode leak increases significantly if applied voltage exceeds
+		this param (see I/V curve)
+	Ex. protected line is at 5V nominal, max variance up to 7V,  
+		ensure V_RWM is 7V or greater
+
+VBR: Applied voltage 
+	where TVS will have 1mA leakage and begin shunting current.
+	inflection point on I/V diode curve, whgere leakage increase
+	exponentially
+	DC value, can shift depending on temp and process
+	In design, make sure **nominal voltage** stays below V_RWM NOT V_BR
+		This is to assure very low system leakage
+	Select a diode where I_pp references your exact waveform used for test
+	conditions
+Ipp: Max current for a defined waveform before TVS diode go to failure
+	i.e. the max current the diode can shunt before diode is damaged
+	In design, I_pp should be much higher than circuit peak surge current
+
+Vclamp: voltage that TVS diode regulates to when exposed to transient current.
+	determines voltage system will be exposed to during a surce
+		Lower v_clamp implies less failure of protectred circuit
+		V_clamp is determined by R_DYN so choose diode with lower
+		R_Dyn
+	V_clamp specified in diode datasheet relative to I_surge and a
+	reference waveform
+		Match data sheet test conditions to your own
+Rdyn: resistance in diode that causes Vclamp to rise when exposed to transient
+current
+	R_Dyn is diode intrinsic property (i.e property of diode itself)
+	V_clamp = V_BR + I_surge x R_dyn
+	If R_dyn not specified in datasheet can be derived by
+	us eqn above to derive R_dyn
+
+Polarity:
+	Whether TVS can sustain a +/- V_RWM or only a positive V_RWM w/o
+	leakage current
+	Observe the differences in I/V curve b/w unidirectional and
+	bidirectional configs
+		Use unidirection for applications wher e voltage is always
+		positive
+			More robust protection against negative surge pulses
+		Use bidirectional where voltage can be positive or negative
+			More flexibility for input voltages
+		negative V_clamp of unidirecitonal TVS diode much better than
+		V_clamp of bidirectional TVS diode
+
+I_leak:
+	leakage current when voltage is applied, specced at VRWM
+Capacitance:
+	parasitic capacitance in TVS diode that impact system operation
+
+**Refer to the TVS Diode I/V curve**
+
+Voltage tolerances by rail (according to gemini)
+• +3.3V Rail: ±5% (Range: +3.135V to +3.465V)
+• +5V Rail: ±5% (Range: +4.750V to +5.250V)
+• +12V Rail: ±5% to -7% depending on the standard (Range: roughly +11.16V to
++12.60V
