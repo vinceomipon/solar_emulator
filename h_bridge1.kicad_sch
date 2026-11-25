@@ -2243,7 +2243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 119.38 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +2765,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 176.53 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)

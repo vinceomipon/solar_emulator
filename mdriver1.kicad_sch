@@ -2086,6 +2086,12 @@
 		(uuid "0d6b4088-d374-49f9-a8f3-5455d212cef6")
 	)
 	(junction
+		(at 212.09 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d6bdfbb-c9b2-4d9e-a815-573b67ed3a5a")
+	)
+	(junction
 		(at 86.36 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2266,6 +2272,16 @@
 			(type default)
 		)
 		(uuid "25038a45-8443-4221-9bb7-8b9df1f98297")
+	)
+	(wire
+		(pts
+			(xy 213.36 90.17) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257cb3cd-9251-443c-99de-e702a2b19107")
 	)
 	(wire
 		(pts
@@ -2479,6 +2495,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 92.71) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f482d23-821e-4ca0-9f0d-4c2784b0e0a9")
+	)
+	(wire
+		(pts
 			(xy 129.54 80.01) (xy 127 80.01)
 		)
 		(stroke
@@ -2636,6 +2662,16 @@
 			(type default)
 		)
 		(uuid "9db82945-95e2-42ef-98c4-d7a31a420dde")
+	)
+	(wire
+		(pts
+			(xy 212.09 102.87) (xy 212.09 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbe72c6-5e0b-4e52-adc6-b14433aaddff")
 	)
 	(wire
 		(pts
@@ -2816,6 +2852,16 @@
 			(type default)
 		)
 		(uuid "e23463e0-ee2e-44b4-aa77-9da9062cf846")
+	)
+	(wire
+		(pts
+			(xy 212.09 92.71) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e290aff5-69cf-4ac0-84ba-865e2c75bd1c")
 	)
 	(wire
 		(pts
@@ -3092,7 +3138,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 212.09 92.71 0)
+		(at 213.36 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3103,7 +3149,7 @@
 		(fields_autoplaced yes)
 		(uuid "078c022b-2fe1-4dd5-af48-ce125755347d")
 		(property "Reference" "#PWR038"
-			(at 212.09 96.52 0)
+			(at 213.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3114,7 +3160,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 212.09 87.63 0)
+			(at 213.36 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3124,7 +3170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 92.71 0)
+			(at 213.36 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 92.71 0)
+			(at 213.36 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,7 +3192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 212.09 92.71 0)
+			(at 213.36 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,6 +3291,84 @@
 			(project "solar_emulator"
 				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2daf3ea1-52d0-4e7b-b163-401bf2151e80")
+		(property "Reference" "#PWR063"
+			(at 212.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e96e3fb0-7e80-4065-b0ee-2c206f8ddebe")
+		)
+		(instances
+			(project "solar_emulator"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3401,6 +3525,88 @@
 			(project "solar_emulator"
 				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60750264-93c0-4171-a0df-e5b18a470c0e")
+		(property "Reference" "C18"
+			(at 215.9 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "88u"
+			(at 215.9 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.0552 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd02bc7b-1431-445f-ac82-c1bb954b94d0")
+		)
+		(pin "1"
+			(uuid "db4e4d6c-ad8f-4711-8996-2e203257ad07")
+		)
+		(instances
+			(project "solar_emulator"
+				(path "/d8ff8312-ce26-4905-abd5-48c35bcc1ef8/cc75a1f8-e6ae-48f2-984b-5a887c217935"
+					(reference "C18")
 					(unit 1)
 				)
 			)
